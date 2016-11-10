@@ -1,4 +1,5 @@
 #HowTo Boost in CMake
+[![Build Status](https://travis-ci.org/damaex/boost-cmake.svg?branch=master)](https://travis-ci.org/damaex/boost-cmake)
 
 ##install Boost dev libraries
 ###Ubuntu
