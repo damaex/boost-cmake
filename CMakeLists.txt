@@ -9,7 +9,7 @@ set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_MULTITHREADED ON)
 set(Boost_USE_STATIC_RUNTIME ON)
 
-find_package(Boost 1.46.0 COMPONENTS filesystem)
+find_package(Boost 1.46.0 COMPONENTS system thread filesystem)
 
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})
