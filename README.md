@@ -13,3 +13,7 @@
 ##use project
 
 Just run CMake and make how you usually would do.
+
+    mkdir build
+    cd build
+    cmake .. && make
